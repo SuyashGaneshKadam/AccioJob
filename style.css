@@ -12,6 +12,7 @@ nav {
   position: sticky;
   top: 0px;
   z-index: 10;
+  padding-top: 20px;
 }
 nav > div > figure {
   cursor: pointer;
@@ -489,9 +490,13 @@ td {
   }
   .courses-card,
   .footer-card {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-bottom: 10px;
+  }
+  .courses-card{
+    padding-inline: 20px;
+    margin-inline: 10px;
   }
   #success-stories {
     padding: 20px;
