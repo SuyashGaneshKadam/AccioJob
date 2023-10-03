@@ -478,6 +478,7 @@ td {
 @media screen and (max-width: 500px) {
   nav {
     position: relative;
+    margin-top: 20px;
   }
   .nav-top,
   .nav-top > ul {
